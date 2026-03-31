@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Search</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; }
+  input { padding: 10px; width: 300px; margin-bottom: 20px; }
+  .movie { margin-bottom: 15px; }
+  .title { font-weight: bold; font-size: 1.2em; }
+  .description { margin-left: 10px; }
+</style>
+</head>
+<body>
+<h1>Movie Search</h1>
+<input type="text" id="searchInput" placeholder="Search movies..." />
+<div id="results"></div>
+<!-- Link to the movies.js file -->
+<script src="movies.js"></script>
+<script>
+  const input = document.getElementById('searchInput');
+  const resultsDiv = document.getElementById('results');
+
+  function renderMovies(list) {
+    resultsDiv.innerHTML = list.map(movie =>
+      `<div class='movie'><div class='title'>${movie.title}</div><div class='description'>${movie.description}</div></div>`
+    ).join('');
+  }
+
+  // Show all movies on page load
+  renderMovies(movies);
+
+  // Update results as user types
+  input.addEventListener('input', () => {
+    const query = input.value.toLowerCase();
+    const filtered = movies.filter(movie =>
+      movie.title.toLowerCase().includes(query) || movie.description.toLowerCase().includes(query)
+    );
+    renderMovies(filtered);
+  });
+</script>
+</body>
+</html>
