@@ -10,6 +10,7 @@ const movies = [
   { title: "Gladiator", description: "A former Roman General seeks revenge against the corrupt emperor who murdered his family and sent him into slavery." },
   { title: "Titanic", description: "A young couple falls in love aboard the ill-fated RMS Titanic, whose maiden voyage ends in tragedy." },
   { title: "The Shawshank Redemption", description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." },
+  { title: "Good Boys", description: "A group of three young boys accidentally land their drone into a neighbours yard, but when they go to get it they open a whole can of worms."}, 
 
   // Stephen King adaptations
   { title: "It", description: "A malevolent entity terrorizes children in a small town every 27 years, forcing them to confront their fears." },
@@ -17,7 +18,7 @@ const movies = [
   { title: "Carrie", description: "A shy high school girl with telekinetic powers seeks revenge after being humiliated at prom." },
   { title: "Misery", description: "A famous author is held captive by a deranged fan after a car accident." },
   { title: "Christine", description: "A possessed car wreaks havoc on its new owner and everyone around him." },
-
+  { title: "Doctor Sleep", description: "After the events at the overlook hotel, Danny torrance discovers a young girl with the shine even brighter then he once had, except he's not the only one who's interested in this girls ability."},
   // More popular movies to reach 120 entries
   { title: "Jurassic Park", description: "Scientists clone dinosaurs to populate a theme park which quickly spirals out of control when the creatures escape." },
   { title: "Star Wars: Episode IV - A New Hope", description: "Luke Skywalker joins forces with a Jedi, a princess, and rebels to fight the evil Galactic Empire." },
