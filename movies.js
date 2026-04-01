@@ -10,6 +10,8 @@ const movies = [
   { title: "Gladiator", description: "A former Roman General seeks revenge against the corrupt emperor who murdered his family and sent him into slavery." },
   { title: "Titanic", description: "A young couple falls in love aboard the ill-fated RMS Titanic, whose maiden voyage ends in tragedy." },
   { title: "The Shawshank Redemption", description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." },
+  { title: "Star Wars Episode IV A New Hope", description: "Led by their leader Darth Vader, The sith are the dictatorship that rules the galaxy however not before luke skywalker is tasked by his uncle to stop the sith and take him down." },
+  { title: "Ted", description: "a talking teddy bear suddenly comes to life after a young boys wish, he grows up with the burden of the bear and must finally choose between his love or his friend." },
   { title: "Good Boys", description: "A group of three young boys accidentally land their drone into a neighbours yard, but when they go to get it they open a whole can of worms."}, 
 
   // Stephen King adaptations
@@ -29,8 +31,9 @@ const movies = [
   { title: "The Avengers", description: "Earth's mightiest heroes assemble to stop Loki and his alien army from enslaving humanity." },
   { title: "Toy Story", description: "A group of toys comes to life when humans aren't around, led by Woody and Buzz Lightyear." },
   { title: "The Silence of the Lambs", description: "A young FBI cadet seeks the advice of imprisoned cannibal Dr. Hannibal Lecter to catch another serial killer." },
+  { title: "Evil Bong 666", description: "the misadventures of a group of friends who come across a sinister, sentient bong." },
   { title: "Saving Private Ryan", description: "Following the Normandy invasion, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action." },
-
+  { title: "Phone Booth", description: "A Greedy Publicist is threatend by a sniper while on a pay phone, he must think smartly to get out of the phone booth without a bullet in him." },
   // ... continue filling up until 120 total movies ...
 ];
 
