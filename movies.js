@@ -10,7 +10,7 @@ const movies = [
   { title: "Gladiator", description: "A former Roman General seeks revenge against the corrupt emperor who murdered his family and sent him into slavery." },
   { title: "Titanic", description: "A young couple falls in love aboard the ill-fated RMS Titanic, whose maiden voyage ends in tragedy." },
   { title: "The Shawshank Redemption", description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." },
-  { title: "Star Wars Episode IV A New Hope", description: "Led by their leader Darth Vader, The sith are the dictatorship that rules the galaxy however not before luke skywalker is tasked by his uncle to stop the sith and take him down." },
+  { title: "Kpop Demon Hunters", description: "Three seemingly normal kpop stars are actually demon hunters assigned to take down demons by making music." },
   { title: "Ted", description: "a talking teddy bear suddenly comes to life after a young boys wish, he grows up with the burden of the bear and must finally choose between his love or his friend." },
   { title: "Good Boys", description: "A group of three young boys accidentally land their drone into a neighbours yard, but when they go to get it they open a whole can of worms."}, 
 
